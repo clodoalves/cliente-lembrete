@@ -1,3 +1,6 @@
+/*Classe que representa o primeiro componente carregado
+na aplicacao*/
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cliente-lembrete';
+  titulo = 'CRUD de lembretes com o Angular';
 }
